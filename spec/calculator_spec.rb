@@ -12,4 +12,8 @@ end
 it 'calculator squares number given' do
   expect(subject.square(3)).to eq(9)
 end
+
+it 'calculator displays answer as puts' do
+  expect {subject.outputanswer(5,5)}.to output("Answer is 25").to_stdout
+end
 end
