@@ -1,5 +1,8 @@
 class Calculator
-  def multiply
-   2 * 2
+  def multiply(a, b)
+   a * b
+  end
+  def square(a)
+    a * a
   end
 end
